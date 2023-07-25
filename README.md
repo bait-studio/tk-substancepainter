@@ -1,4 +1,5 @@
 # Shotgun toolkit engine for Substance Painter
+## Forked for GorillaVFX
 
 Contact : [Diego Garcia Huerta](https://www.linkedin.com/in/diegogh/)
 
@@ -8,12 +9,24 @@ Contact : [Diego Garcia Huerta](https://www.linkedin.com/in/diegogh/)
 
 Implementation of a shotgun engine for [**Substance Painter**](https://www.allegorithmic.com/products/substance-painter). It supports the classic bootstrap startup methodology and integrates with Substance Painter adding a shotgun menu in it's plugin toolbar. 
 
-* [Engine Installation](#engine-installation)
-* [Configuring your project for Shotgun Toolkit](#configuring-your-project-for-shotgun-toolkit)
-* [Modifying the toolkit configuration files to add this engine and related apps](#modifying-the-toolkit-configuration-files-to-add-this-engine-and-related-apps)
-* [Modifying the Templates](#modifying-the-templates)
-* [Configuring Substance Painter in the software launcher](#configuring-substancepainter-in-the-software-launcher)
-* [Caching and downloading the engine into disk](#caching-and-downloading-the-engine-into-disk)
+- [Shotgun toolkit engine for Substance Painter](#shotgun-toolkit-engine-for-substance-painter)
+  - [Forked for GorillaVFX](#forked-for-gorillavfx)
+  - [Overview](#overview)
+  - [Engine Installation](#engine-installation)
+  - [Configuring your project for Shotgun Toolkit](#configuring-your-project-for-shotgun-toolkit)
+  - [Modifying the toolkit configuration files to add this engine and related apps](#modifying-the-toolkit-configuration-files-to-add-this-engine-and-related-apps)
+  - [Modifying the Templates](#modifying-the-templates)
+  - [Configuring Substance Painter in the software launcher](#configuring-substance-painter-in-the-software-launcher)
+  - [Caching and downloading the engine into disk](#caching-and-downloading-the-engine-into-disk)
+  - [Substance Painter engine should be ready to use](#substance-painter-engine-should-be-ready-to-use)
+  - [tk-multi-workfiles2](#tk-multi-workfiles2)
+  - [tk-multi-snapshot](#tk-multi-snapshot)
+  - [tk-multi-loader2](#tk-multi-loader2)
+  - [tk-multi-publish2](#tk-multi-publish2)
+  - [tk-multi-breakdown](#tk-multi-breakdown)
+  - [Documentation](#documentation)
+  - [Using this app in your Setup](#using-this-app-in-your-setup)
+  - [Have a Question?](#have-a-question)
 
 With the engine, hooks for most of the standard tk application are provided:
 
